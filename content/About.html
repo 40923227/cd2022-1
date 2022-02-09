@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='Website.html'>Website</a><li><a href='Brython.html'>Brython</a><li><a href='Rust.html'>Rust</a></li></ul><li class='has-children'><a href='NX1980.html'>NX1980</a><ul class='dropdown'><li><a href='Automation.html'>Automation</a></li></ul><li><a href='Onshape.html'>Onshape</a><li><a href='Programming.html'>Programming</a><li><a href='Downloads.html'>Downloads</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='Website.html'>Website</a><li><a href='Brython.html'>Brython</a><li><a href='Rust.html'>Rust</a></li></ul><li class='has-children'><a href='NX1980.html'>NX1980</a><ul class='dropdown'><li><a href='Automation.html'>Automation</a></li></ul><li><a href='Onshape.html'>Onshape</a><li class='has-children'><a href='MBSE.html'>MBSE</a><ul class='dropdown'><li><a href='Arduino.html'>Arduino</a></li></ul><li><a href='Programming.html'>Programming</a><li><a href='Downloads.html'>Downloads</a></li>
                       </ul>
                 </nav>
               </div>
@@ -145,15 +145,23 @@ img.add_border {
 <p>課程倉儲: <a href="https://github.com/mdecourse/cd2022">https://github.com/mdecourse/cd2022</a></p>
 <p>課程規劃與作業: <a href="https://github.com/mdecourse/cd2022/discussions">https://github.com/mdecourse/cd2022/discussions</a></p>
 <p>課程討論區: <a href="https://gitter.im/mdecourse/cd2022">https://gitter.im/mdecourse/cd2022</a></p>
+<p><a href="http://[2001:288:6004:17:10ff::10]:88">教學影片</a> (for local area network only)</p>
 <hr/>
 <h4>課程簡介:</h4>
 <p style="padding-left: 30px;">協同產品設計實習承接電腦輔助設計實習課程, 著重在探討多人模式下, 如何有效執行與機電系統設計相關的產品開發流程.</p>
-<p style="padding-left: 30px;">本課程以每四人為一小組, 兩小組為一大組執行機電系統模型設置專案, 任務一將延續 <a href="https://mde.tw/cad2021">cad2021</a> (<a href="https://mde.tw/cad2021_hw">Hw</a>, <a href="https://mde.tw/cad2021_final">Final</a>) 中的 meArm Robot 完成<a href="https://github.com/mdecourse/cd2022/discussions/1#discussioncomment-1984898">課程主題一</a>.</p>
+<p style="padding-left: 30px;">本課程以每四人為一小組, 兩小組為一大組執行機電系統模型設置專案, 任務一將延續 <a href="https://mde.tw/cad2021">cad2021</a> (<a href="https://mde.tw/cad2021_hw">Hw</a>, <a href="https://mde.tw/cad2021_final">Final</a>) 中的 meArm Robot 架構 (同 <a href="https://www.ufactory.cc/pages/uarm">uarm</a>, <a href="https://cad.onshape.com/documents/21d631bfd9ab509e3a2079c0/w/832791ed26ad65d49a0711b4/e/6957bf222554da36040535be">Onshape uarm</a> 與 <a href="https://github.com/AliShug/EvoArm">Evoarm</a>) 完成<a href="https://github.com/mdecourse/cd2022/discussions/1#discussioncomment-1984898">課程主題一</a>.</p>
 <p style="padding-left: 60px;">(1) <a href="https://github.com/mdecourse/cd2022/discussions/11">整理 meArm 零組件檔案</a></p>
 <p style="padding-left: 60px;">(2) <a href="https://github.com/mdecourse/cd2022/discussions/12">meArm pick and place 模擬</a></p>
 <p style="padding-left: 60px;">(3) <a href="https://github.com/mdecourse/cd2022/discussions/13">Python remote API 模擬</a> (CoppeliaSim <a href="https://drive.google.com/file/d/1ZkKa4rl0fsmqsMWegPWjSVUW__9PQ3yh/view?usp=sharing">4.1.0</a>, <a href="https://drive.google.com/file/d/16tiFBeeV3OEwomioM9MQxQIUJwEyzcQy/view?usp=sharing">4.2.0</a>), 直接以 Python script 操控 (<a href="https://drive.google.com/file/d/1Y5XScY8-xkc1XQVOn3RsEJ8ds-byfS3s/view?usp=sharing">4.3.0</a>)</p>
 <p style="padding-left: 30px;">課程主題二: 分別利用 <a href="https://mde.tw/cad2021/content/Compile%20Solvespace.html">Solvespace</a>, <a href="https://mde.tw/cad2021_hw/content/NX1980.html">NX1980</a> 與 <a href="https://www.onshape.com/en/">Onshape</a>, 參考<a href="./../downloads/Not_so_new_type_of_walking_machine.pdf">行走機構文獻</a>, 設計一款可配合 meArm Robot 上下載運物件 (loading and unloading) 的行走機構.</p>
 <p style="padding-left: 30px;">課程主題三: 每一大組必須將 Github 上的大組倉儲與網站內容, 設法同步至電腦輔助設計室 <a href="http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html">Skylake MD790</a> 電腦第三磁區中的 <a href="https://fossil-scm.org/home/doc/trunk/www/server/">Fossil SCM server</a>.</p>
+<h4 style="padding-left: 30px;">建模與模擬 (Modeling and Simulation):</h4>
+<p style="padding-left: 30px;">現代產品幾乎都是植基於數位工程 (Digital Engineering) 下的產物, 意即都是先經過建模 (Modeling) 並透過模擬 (Simulaion) 確認其模型功能符合需求後, 才逐一實體化 (Realization).</p>
+<p style="padding-left: 30px;">建立模型的過程是希望利用數位方法來表達物體的真實情境, 當數位模型導入各種狀態變數 (State Variables), 在特定時間內的表現即為模擬 (Simulation), 若此模型的模擬結果越接近真實, 則此一模型即可稱為真實世界的 <a href="https://en.wikipedia.org/wiki/Digital_twin">digital twin</a>.</p>
+<p style="padding-left: 30px;">數位模型建立過程可以透過網路無遠弗屆傳遞, 可以同步或非同步協同 (Synchronous or Asynchronous Collaboration) , 也可以虛實整合 (cyber-physical integration).</p>
+<p style="padding-left: 30px;">數位模型的模擬即透過運算呈現結果, 其目標在令其貼近所代表的真實情境. 由於真實世界的部分情境可用數學模型簡化後加以呈現, 意即數位模型希望貼近真實世界, 產品設計者必須運用已知或創新方法建立適用的數位運算模型 (Digital Computation Model).</p>
+<p style="padding-left: 30px;">電腦輔助設計 (Computer Aided Design) 的目的在利用電腦呈現建立模型過程 (Model Creation Process) 的全貌 (Whole Picture).</p>
+<p style="padding-left: 30px;">協同產品設計 (Collaborative Product Design) 即採多人協同模式執行電腦輔助設計.</p>
 <h4>電腦輔助設計室與協同設計室行事曆</h4>
 <p><a href="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei">全頁檢視</a></p>
 <p><iframe height="600" src="https://calendar.google.com/calendar/embed?src=mde.nfu.edu.tw_3439313938333136353439%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;mode=week&amp;src=mde.nfu.edu.tw_35303530373431313438%40resource.calendar.google.com&amp;ctz=Asia%2FTaipei&amp;src=yen%40gm.nfu.edu.tw&amp;ctz=Asia%2FTaipei" width="800"></iframe></p><br /> <a href='Website.html'>Next</a> >> Website</div>

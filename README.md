@@ -4,4 +4,4 @@
 
 2022 Spring 協同產品設計實習課程倉儲與網頁
 
-https://40923227.github.io/cd2022/content/index.html
+https://40923227.github.io/cd2022-1/content/index.html
